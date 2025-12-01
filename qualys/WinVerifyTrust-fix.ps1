@@ -52,7 +52,7 @@ foreach ($p in $paths) {
     }
   }
   catch {
-    Log 'error' "Failed at $p: $($_.Exception.Message)"
+    Log 'error' "Failed at $($p): $($_.Exception.Message)"
   }
 }
 

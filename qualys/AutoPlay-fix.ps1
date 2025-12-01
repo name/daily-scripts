@@ -83,7 +83,7 @@ function Set-DwordValue {
     }
   }
   catch {
-    Log 'error' "Failed to set $Name at $Path: $($_.Exception.Message)"
+    Log 'error' "Failed to set $Name at ${Path}: $($_.Exception.Message)"
   }
 }
 
